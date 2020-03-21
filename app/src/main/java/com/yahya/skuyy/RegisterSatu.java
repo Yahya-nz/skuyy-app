@@ -55,7 +55,6 @@ public class RegisterSatu extends AppCompatActivity {
                         if (dataSnapshot.exists()){
                             Toast.makeText(getApplicationContext(), "Username Sudah di Gunakan", Toast.LENGTH_SHORT).show();
                             btn_continue.setEnabled(true);
-                            btn_continue.setText("CONTINUE");
                         }
                         else {
                             //menyimpan data secara local
