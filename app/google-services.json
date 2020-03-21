@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050963163243",
+    "firebase_url": "https://skuyy-app1.firebaseio.com",
+    "project_id": "skuyy-app1",
+    "storage_bucket": "skuyy-app1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050963163243:android:cddaf4b15b0421c09e192e",
+        "android_client_info": {
+          "package_name": "com.yahya.skuyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050963163243-9k7l9625beq2g3j07m9ejlgmheiq8o43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSMnMhy_Q_AGcFmTU8CzCmKKWxyA0T_3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050963163243-9k7l9625beq2g3j07m9ejlgmheiq8o43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
