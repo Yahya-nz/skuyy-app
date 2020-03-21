@@ -1,4 +1,5 @@
 # Skuyy-app
 
-Aplikasi Pemesanan Tiket Wisata
+Aplikasi Pemesanan Tiket Wisata berbasis Android
+
 
