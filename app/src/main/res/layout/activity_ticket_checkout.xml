@@ -172,13 +172,13 @@
                     android:background="@drawable/date"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:importantForAutofill="no"
-                    android:onClick="showDatePickerDialog">
+                    android:importantForAutofill="no">
                 </Button>
                 <EditText
                     android:id="@+id/date_wisata"
                     android:layout_width="match_parent"
                     android:layout_marginLeft="15dp"
+                    android:hint="tekan icon disebelah"
                     android:layout_height="50dp"></EditText>
             </LinearLayout>
         </LinearLayout>

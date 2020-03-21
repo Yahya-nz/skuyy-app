@@ -69,28 +69,23 @@
             android:layout_marginRight="24dp"
             android:layout_marginBottom="24dp"
             android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/mlight"
-                android:text="@string/name_label"
-                android:textColor="@color/grayprimary"
-                android:textSize="20sp" />
-
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/nama_lengkap"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/bg_input_edit"
                 android:fontFamily="@font/mmedium"
                 android:lines="1"
+                android:hint="@string/name_label"
                 android:paddingLeft="12dp"
                 android:paddingRight="12dp"
                 android:inputType="text"
                 android:importantForAutofill="no"
                 tools:ignore="LabelFor"
                 android:textColor="@color/blackprimary" />
+            </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -100,20 +95,15 @@
             android:layout_marginRight="24dp"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/mlight"
-                android:text="@string/bio_label"
-                android:textColor="@color/grayprimary"
-                android:textSize="20sp" />
-
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/bio"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/bg_input_edit"
                 android:fontFamily="@font/mmedium"
+                android:hint="@string/bio_label"
                 android:lines="1"
                 android:inputType="text"
                 android:paddingLeft="12dp"
@@ -121,6 +111,7 @@
                 android:importantForAutofill="no"
                 android:textColor="@color/blackprimary"
                 tools:ignore="LabelFor"/>
+            </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
 
     </LinearLayout>
