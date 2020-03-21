@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/imageview"
-        android:layout_width="192dp"
+        android:layout_width="222dp"
         android:layout_height="110dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
@@ -19,6 +19,15 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/btm"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/btm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:contentDescription="@string/todo" />
 
     <LinearLayout
